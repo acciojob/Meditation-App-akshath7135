@@ -10,43 +10,39 @@
     <div id="app">
         <h1>Meditation App</h1>
 
-        <!-- Video Section -->
         <div class="vid-container">
             <video id="meditation-video" width="600" height="400" autoplay loop muted>
-                <source id="video-source" src="videos/beach.mp4" type="video/mp4">
+                <source src="videos/beach.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
 
-        <!-- Audio Section -->
         <div class="player-container">
             <audio id="meditation-audio" loop>
-                <source id="audio-source" src="sounds/beach.mp3" type="audio/mpeg">
+                <source src="sounds/beach.mp3" type="audio/mpeg">
                 Your browser does not support the audio tag.
             </audio>
         </div>
 
-        <!-- Time Display -->
         <div class="time-display">10:00</div>
 
-        <!-- Time Selection Buttons -->
-        <div class="sound-picker">
+        <div class="time-select">
             <button id="smaller-mins">2 Min</button>
             <button id="medium-mins">5 Min</button>
             <button id="long-mins">10 Min</button>
         </div>
 
-        <!-- Play/Pause Buttons -->
-        <button class="play" id="play-button">Play</button>
-        <button class="play" id="pause-button">Pause</button>
+        <div class="controls">
+            <button class="play" id="play-button">Play</button>
+            <button class="play" id="pause-button">Pause</button>
+        </div>
 
-        <!-- Sound Switcher Buttons -->
         <div class="sound-picker">
             <button id="meditation-a">Meditation A</button>
             <button id="meditation-b">Meditation B</button>
         </div>
     </div>
 
-    <script type="text/javascript" src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -18,7 +18,7 @@ h1 {
 }
 
 .player-container {
-    display: none; /* Hide audio player */
+    display: none; /* Hide audio player initially */
 }
 
 .time-display {
@@ -26,6 +26,8 @@ h1 {
     margin: 20px 0;
 }
 
+.time-select,
+.controls,
 .sound-picker {
     margin: 20px 0;
 }
